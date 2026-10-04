@@ -8,5 +8,5 @@
 
 const daftarItem = [
   { id: 1, nama: "Contoh Item", kategori: "Contoh", harga: 10000, tersedia: true },
-  // TODO: tambahkan item lain
+  { id: 1, nama: "Contoh Item", kategori: "Contoh", harga: 10000, tersedia: true },  // TODO: tambahkan item lain
 ];
