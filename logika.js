@@ -4,6 +4,19 @@
 
 console.table(daftarItem);
 
+function ketersediaan (daftar){
+    let keperluan = 0;
+    let ketidakperluan = 0;
+
+    for ( const diperlukan of daftarItem){
+        if ( diperlukan==true){
+             keperluan=keperluan++;
+        }else if (diperlukan==false){
+            ketidakperluan=ketidakperluan++;
+        }
+    }
+}
+
 // ─────────────────────────────────────────────
 // FUNGSI 1 — hitungTersedia(daftar)
 // Berapa banyak item yang properti true/false-nya bernilai true?
