@@ -13,4 +13,5 @@ const daftarItem = [
   { id: 4, nama: "Susu",                kasus: "Impor",  harga: 92000000, diperlukan: false }, 
   { id: 5, nama: "Karet",               kasus: "Ekspor", harga: 42000000, diperlukan: true }, 
   { id: 6, nama: "Buah-Buahan",         kasus: "Impor",  harga: 30000000, diperlukan: false },  
+  { id: 7, nama: "sayur mayur",         kasus: "Ekspor",  harga: 25000000, diperlukan: true },  
 ];

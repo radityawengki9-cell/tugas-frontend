@@ -39,7 +39,7 @@ function cari (daftar, id){
 }
 
 
-const hasilCari = cari(daftarItem, 3);
+const hasilCari = cari(daftarItem, 7);
 console.log(hasilCari);
 
 
